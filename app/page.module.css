@@ -1,0 +1,52 @@
+.container{
+    background-image: url('https://cdn.pixabay.com/photo/2023/06/30/10/19/man-8098085_1280.jpg'); 
+    height: 100vh;
+    width:100vw;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+  
+   
+ }
+ 
+ .heading{
+   padding-top:11rem;
+   padding-left: 4rem;
+   font-size: 3rem;
+   font-weight: 500;
+   text-transform: uppercase;
+ }
+ .para{
+   padding-left: 4rem;
+   padding-top:1.5rem ;
+   line-height: 1.8rem;
+   
+ }
+ 
+ .button{
+   padding: 1rem;
+   margin-left: 4rem;
+   margin-top: 2rem;
+   padding-right: 2rem;
+   background-color: rgb(150, 34, 57);
+   border-radius: 8px;
+   border: none;
+   color: white;
+   width: 8rem;
+   height: 3rem;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   cursor: pointer;
+   text-align: center;
+   font-size: 1rem;
+   padding-left: 1.5rem;
+ 
+ }
+
+ .button:hover{
+    background-color: transparent;
+    border: 2px solid rgb(150, 34, 57);
+    color: black;
+    font-size:1.2rem ;
+ }
